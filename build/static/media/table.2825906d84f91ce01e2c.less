@@ -1,0 +1,43 @@
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.table-header-container {
+    padding-right: 10px;
+}
+
+.table-header, .table-body {
+    border-collapse: collapse;
+    font-size: 13px;
+    font-weight: normal;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.table-column-header {
+    border-left: 1px solid;
+    box-sizing: border-box;
+    font-weight: bold;
+    max-height: 30px;
+    padding: 8px 5px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.table-body-container {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.table-body td {
+    border: none;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.table-body td.white-space-no-wrap {
+    white-space: initial;
+}
